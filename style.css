@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+  }
+  .mainps{
+    position: relative;
+    width: 100%;
+    
+    }
+    .mainps .btn{
+        position: absolute;
+        top: 63%;
+        left: 83%;
+        width: 200px;
+        height: 29px;
+        background-color: transparent;
+        border: 0;
+        color: transparent;
+        cursor: pointer;
+
+    }
+  .navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .navlogo {
+    height: 50px;
+    width: 100px;
+  }
+  
+  .logo {
+    background-image: url(/Images/amazon_logo.png);
+    height: 50px;
+    
+    background-size: cover;
+  }
+  .border {
+    border: 2px solid transparent;
+    border-radius: 2px;
+  }
+  .border:hover {
+    border: 2px solid white;
+  }
+  
+  .addfirst {
+    color: #cccccc;
+    font-size: 13px;
+    margin-left: 15px;
+    align-items: center;
+  }
+  
+  .addsecond {
+    font-size: 16px;
+    margin-left: 3px;
+    font-weight: 700;
+    align-items: center;
+  }
+  
+  .addicon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .border2:hover {
+    border: 1.5px solid white;
+    height: 50px;
+  }
+  
+  .search1 {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    background-color: rgb(255, 52, 52);
+    height: 40px;
+    width: 680px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .nav-search {
+    display: flex;
+    height: 40px;
+    width: 900px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    background-color: #ff8484;
+    margin-left: 15px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+  }
+  .buy{
+    background-image: url(/Images/shop.png);
+  }
+  .search-option1 {
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+  }
+  
+  input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+  .search-input{
+      border: none;
+  }
+  .search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 156, 4, 0.849);
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+  }
+  
+  .lanoption {
+    font-weight: bolder;
+    background: transparent;
+    color: white;
+    border: none;
+    align-items: center;
+  }
+  
+  .languageoption {
+    height: 50px;
+    width: 74px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+  }
+  .american {
+    background-image: url(/Images/india.png);   
+    background-size: cover;
+    height: 16px;
+    width: 20px;
+    align-items: center;
+  }
+  
+  .return {
+    font-size: 12px;
+  }
+  
+  .order {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .cart i {
+    font-size: 30px;
+  }
+  
+  .cart {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  
+  .nav-search:hover {
+    border: 2px solid orange;
+  }
+  
+  .second-nav {
+    height: 42px;
+    background-color: #222f3d;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  .second-nav p {
+    display: inline;
+  }
+  
+  .allicon {
+    padding-left: 8px;
+    align-items: center;
+    display: flex;
+    width: 58px;
+    height: 36px;
+  }
+  
+  .list {
+    font-weight: 700;
+    margin: 2px;
+    font-size: 14px;
+  }
+  
+  .panel-ops {
+    width: 50%;
+    font-size: 1rem;
+  }
+  
+  .ptag {
+    margin-left: 15px;
+  }
+  .deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  
+
+
+ 
+  .buynow{
+    position: relative;
+    width: 100%;
+  }
+  .paybtn{
+    position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 200px;
+        height: 32px;
+         background-color: orangered;
+        border: 0;
+        color: white;
+        cursor: pointer;
+  }
+
+  .dropimg{
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .btn{
+    position: absolute;
+        top: 4%;
+        left: 0%;
+        width: 150px;
+        height: 29px;
+        background-color: transparent;
+        border: 0;
+        color: transparent;
+        cursor: pointer;
+
+  }
+  .log-in{
+    position: absolute;
+    top: 12%;
+    left: 160%;
+    width: 50px;
+    height: 14px;
+    background-color: transparent;
+        border: 0;
+        color: transparent;
+        cursor: pointer;
+  }
+
+  .backg{
+    position: relative;
+  }
+  .buybtn{
+    position: absolute;
+        top: 65%;
+        left: 24%;
+        width: 215px;
+        height: 48px;
+        background-color: transparent;
+        border: 0;
+        color: transparent;
+        cursor: pointer;
+  }
+  .logbtn{
+    position: absolute;
+        top: 1.35%; 
+        left: 57.5%;
+        width: 125px;
+        height: 31px;
+        background-color: transparent;
+        border: 0;
+        color: transparent;
+        cursor: pointer;
+  }
+  .signbtn{
+    position: absolute;
+        top: 1.35%;
+        left: 68%;
+        width: 125px;
+        height: 31px;
+        background-color: #ffffff;
+        border: 0;
+        color: #2874f0;
+        cursor: pointer;
+  }
+  .signfont{
+    font-weight: bold;
+    font-size: 14px;
+  }
