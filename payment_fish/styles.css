@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.payment-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #0070ba;
+    margin: 0;
+    text-align: right;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.account-balance,
+.transaction-number {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.payment-options-section,
+.form-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.payment-options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-option {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0070ba;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.payment-option:last-child {
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0070ba;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}

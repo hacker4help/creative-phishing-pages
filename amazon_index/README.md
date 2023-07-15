@@ -1,4 +1,4 @@
-# Creative-Phishing-Pages
+# creative-phishing-pages
 This contains the creative phishing pages designed with the collaboaration with Bits Pilani PS-1 interns for the awareness and seminars.
 
 We have created different branches for different areas of phishing pages.
