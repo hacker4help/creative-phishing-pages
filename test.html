@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .expiry-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .slash {
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="expiry-container">
+    <select id="expiry-month" onchange="updateField()">
+      <option value="01">Jan</option>
+      <option value="02">Feb</option>
+      <option value="03">Mar</option>
+      <option value="04">Apr</option>
+      <option value="05">May</option>
+      <option value="06">Jun</option>
+      <option value="07">Jul</option>
+      <option value="08">Aug</option>
+      <option value="09">Sep</option>
+      <option value="10">Oct</option>
+      <option value="11">Nov</option>
+      <option value="12">Dec</option>
+    </select>
+    <span class="slash">/</span>
+    <select id="expiry-year" onchange="updateField()"></select>
+  </div>
+
+  <script>
+    // Get the current year
+    var currentYear = new Date().getFullYear();
+
+    // Populate the year dropdown
+    var selectYear = document.getElementById('expiry-year');
+    for (var i = currentYear; i <= currentYear + 10; i++) {
+      var option = document.createElement('option');
+      option.text = i;
+      option.value = i;
+      selectYear.add(option);
+    }
+
+    // Set initial values
+    var selectMonth = document.getElementById('expiry-month');
+    selectMonth.value = '01'; // Default to January
+
+    // Event listener for changes
+    selectMonth.addEventListener('change', updateField);
+    selectYear.addEventListener('change', updateField);
+
+    // Function to update the displayed expiry value
+    function updateField() {
+      var expiryMonth = selectMonth.value;
+      var expiryYear = selectYear.value.substr(-2); // Use last two digits of the year
+      var expiryDisplay = document.getElementById('expiry-display');
+      expiryDisplay.textContent = expiryMonth + '/' + expiryYear;
+    }
+  </script>
+</body>
+</html>
